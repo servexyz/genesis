@@ -53,22 +53,19 @@ graph LR
 10. Webster
 11. Crichton
 
-> TODO: The graph below is a first-draft. Definitely could be optimized. Consult Wrigley docs and brainstorm.
-
 ```mermaid
-graph TB
+graph LR
     subgraph UI
-    Asimov --> Wilhelm
-    Wilhelm --> Galton
+    Asimov --- Galton
+    Galton --- Wilhelm
   end
-  subgraph Files
-    Webster --> Asimov
-    Webster --> Wilhelm
+subgraph Files
+    Webster --- Asimov
+    Webster --- Wilhelm
   end
   subgraph App
     Asimov --> Crichton
     Wilhelm --> Crichton
     Galton --> Crichton
-    Webster --> Crichton
   end
 ```
