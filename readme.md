@@ -23,15 +23,15 @@
 
 ### Module Creation
 
-1. Repospace
+* [x] Repospace
 
 ##### Bits
 
-2. file-genesis
-3. content-genesis
-4. config-genesis
-5. package-genesis
-6. library-genesis
+* [ ] _file_-genesis
+* [ ] _content_-genesis
+* [ ] _config_-genesis
+* [ ] _package_-genesis
+* [ ] _library_-genesis
 
 ```mermaid
 graph LR
@@ -47,11 +47,11 @@ graph LR
 
 ##### Wrigley
 
-7. Asimov
-8. Wilhelm
-9. Galton
-10. Webster
-11. Crichton
+* [ ] Asimov
+* [ ] Wilhelm
+* [ ] Galton
+* [ ] Webster
+* [ ] Crichton
 
 ```mermaid
 graph LR
