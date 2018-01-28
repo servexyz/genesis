@@ -56,10 +56,10 @@ graph LR
 
 ### Config Playground
 
-Config paths:
-
-* Copying format of existing project
-* Creating new format from scratch
+> Options:
+>
+> * Copying format of existing project
+> * Creating new format from scratch
 
 #### Copying
 
@@ -68,7 +68,7 @@ Config paths:
 `ls >> file.log`
 
 **Output**
-`file.log`
+file.log
 
 ```
 templates
@@ -82,10 +82,13 @@ package.json
 node_modules
 ```
 
-**Node Input**
+**Node Implementation**
 
 1. yarn add [shelljs](https://www.npmjs.com/package/shelljs)
-2. [Code Example](https://www.npmjs.com/package/shelljs#examples)
+2. implement shelljs
+3. Parse each file by type
+
+[Code Example](https://www.npmjs.com/package/shelljs#examples)
 
 ```js
 // Replace macros in each .js file
@@ -96,3 +99,5 @@ shell.ls("*.js").forEach(function(file) {
   shell.sed("-i", /.*REPLACE_LINE_WITH_MACRO.*\n/, shell.cat("macro.js"), file);
 });
 ```
+
+#### Creating
