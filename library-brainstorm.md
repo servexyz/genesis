@@ -2,6 +2,27 @@
 
 > The purpose of library-genesis is to make it easy to convert a single config into a scaffolded project. This is more fluid than cloning.
 
+<!-- TOC START min:1 max:5 link:true update:true -->
+
+* [Library Genesis](#library-genesis)
+  * [Brainstorm](#brainstorm)
+    * [Dependencies](#dependencies)
+    * [Config File](#config-file)
+    * [Questions](#questions)
+      * [[Topology](#topology) & [Structure](#structure)](#topologytopology--structurestructure)
+      * [[Type](#types)](#typetypes)
+      * [[Templates](#templates)](#templatestemplates)
+      * [[Config files](#config-files)](#config-filesconfig-files)
+    * [Config Files](#config-files)
+      * [Copying](#copying)
+      * [Creating](#creating)
+        * [Topology](#topology)
+        * [Structure](#structure)
+        * [Types](#types)
+    * [Templates](#templates)
+
+<!-- TOC END -->
+
 ---
 
 ## Brainstorm
@@ -37,17 +58,24 @@ graph LR
 
 ---
 
-**Structure**
+##### [Topology](#topology) & [Structure](#structure)
 
 * This is the essence of the config. This structure itself should be fairly straightforward.
 * What's the best way to reference templates (templatePath, templateVariables)?
 
-**Type**
+##### [Type](#types)
 
 * How should types be specified?
-  * Directories are self-evident. `Directory/`
+* What are the attributes of those types?
 
-**Templates**
+##### [Templates](#templates)
+
+* _Q:_ How should they be `defined`? (A: see content-genesis for reference)
+* _Q:_ Where should they be `stored`?
+* _Q:_ How should they be `shared`?
+* _Q:_ How should they be `classified`?
+
+##### [Config files](#config-files)
 
 * _Q:_ How should they be `defined`? (A: see content-genesis for reference)
 * _Q:_ Where should they be `stored`?
@@ -56,7 +84,7 @@ graph LR
 
 ---
 
-### Config Playground
+### Config Files
 
 ---
 
@@ -110,7 +138,7 @@ shell.ls("*.js").forEach(function(file) {
 
 > Config format from scratch which takes in raw config to generate everything...
 
-**Topology**
+##### Topology
 
 * Directories
 * Files
@@ -120,7 +148,7 @@ shell.ls("*.js").forEach(function(file) {
     * Package
       * Dependencies
 
-**Sample**
+##### Structure
 
 ```js
 let libray = {
@@ -137,7 +165,7 @@ let libray = {
 };
 ```
 
-**File & Directory Attributes**
+##### Types
 
 | Name      | Type   | Attributes                                    |
 | :-------- | :----- | :-------------------------------------------- |
@@ -150,3 +178,9 @@ let libray = {
 * `v` = variables : object
 * `c` = content : string
 * `s` = symlink : string (path)
+
+---
+
+### Templates
+
+---
