@@ -54,12 +54,16 @@ graph LR
 * _Q:_ How should they be `shared`?
 * _Q:_ How should they be `classified`?
 
+---
+
 ### Config Playground
 
-> Options:
->
-> * Copying format of existing project
-> * Creating new format from scratch
+---
+
+**Options**
+
+* [Copying](#copying) format of existing project
+* [Creating](#creating) new format from scratch
 
 #### Copying
 
@@ -100,4 +104,52 @@ shell.ls("*.js").forEach(function(file) {
 });
 ```
 
+---
+
 #### Creating
+
+> Config format from scratch which takes in raw config to generate everything...
+
+**Topology**
+
+* Directories
+* Files
+  * Templates
+    * Content Variables
+  * Configurations
+    * Package
+      * Dependencies
+
+**Sample**
+
+```js
+let libray = {
+  directory: [
+    { file.ext: { t: "/path/to/template.js", v: {Foo: "Bar"}}},
+    { file.ext: { c: "Foobar"}},
+    { file.ext: { s: "/path/to/file/to/symlink"}},
+    directory: [
+      { file.ext: { c: "Foobar"}},
+      { file.ext: { c: "Foobar"}},
+      { file.ext: { c: "Foobar"}},
+    ];
+  ];
+};
+```
+
+**File & Directory Attributes**
+
+| Name      | Type   | Attributes                                    |
+| :-------- | :----- | :-------------------------------------------- |
+| file      | object | `filename.extension`, nested                  |
+| directory | array  | `directoryname`, parent of other files & dirs |
+
+* file = name with extension, nested inside dir
+* directories ->
+
+**Flags**
+
+* `t` = template : string (path)
+* `v` = variables : object
+* `c` = content : string
+* `s` = symlink : string (path)
