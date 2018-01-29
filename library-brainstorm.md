@@ -144,9 +144,6 @@ let libray = {
 | file      | object | `filename.extension`, nested                  |
 | directory | array  | `directoryname`, parent of other files & dirs |
 
-* file = name with extension, nested inside dir
-* directories ->
-
 **Flags**
 
 * `t` = template : string (path)
