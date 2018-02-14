@@ -2,6 +2,9 @@
 
 > Brainstorm all the genesis things
 
+* [PNG Version](./images/genesis-brainstorm.png)
+* [PDF Version](./images/genesis-brainstorm.pdf)
+
 ---
 
 ## Genesis
