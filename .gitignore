@@ -1,3 +1,6 @@
+*-genesis
+*-genesis-example
+*-genesis-cli
 .repositories
 .DS_Store
 node_modules
