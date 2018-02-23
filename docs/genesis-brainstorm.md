@@ -37,7 +37,7 @@ graph LR
 
 repospace --> alpha-genesis
 
-subgraph Omega Genesis
+subgraph Alpha Genesis
 alpha-genesis --> library-genesis
 alpha-genesis --> file-genesis
 alpha-genesis --> content-genesis
@@ -79,7 +79,7 @@ end
 graph LR
 repospace --> omega-genesis
 
-subgraph Alpha Genesis
+subgraph Omega Genesis
   omega-genesis --> app-genesis
   omega-genesis --> view-genesis
   omega-genesis --> ui-genesis
