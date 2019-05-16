@@ -1,4 +1,4 @@
-![logo](docs/images/logo/Genesis.svg)
+![logo](docs/images/logo/Genesis.png)
 
 > What: Monolith of related generator building blocks
 > 
@@ -10,7 +10,7 @@
 
 After cloning this repo, run the following inside this directory:
 
-```bash
+```bas**h**
 npx repogen .repogen.js
 ```
 
