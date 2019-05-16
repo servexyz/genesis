@@ -20,13 +20,13 @@ You only need to run repogen once. After that, you can continue using the reposi
 ### Active - `Maintained`
 | Effort Level (:boom:/4)  | Code Name | Name                                                                   | Description                                                             |
 |:-------------------------|:----------|:-----------------------------------------------------------------------|:------------------------------------------------------------------------|
-| :boom::boom:             | AGEN      | [alpha-genesis](https://github.com/servexyz/alpha-genesis)             | Shim for LGEN, FGEN and CGEN                                            |
-| :boom::boom:             | FGEN      | [file-genesis](https://github.com/servexyz/file-genesis)               | File generator                                                          |
-| :boom::boom::boom:       | CGEN      | [content-genesis](https://github.com/servexyz/content-genesis)         | Content generator                                                       |
-| :boom::boom::boom:       | LGEN      | [library-genesis](https://github.com/servexyz/library-genesis)         | Library generator                                                       |
-| :boom::boom:             | LGENC     | [library-genesis-cli](https://github.com/servexyz/library-genesis-cli) | Library generator  CLI                                                  |
-| :boom::boom::boom::boom: | RGEN      | [repo-genesis](https://github.com/servexyz/repo-geneis)                | Clone symlinked repos to make flexible monoliths without git submodules |
-| :boom::boom::boom:       | RGENC     | [repo-genesis-cli](https://github.com/servexyz/repo-genesis-cli)       | Monolith maker CLI                                                      |
+| :boom::boom:             | `AGEN`    | [alpha-genesis](https://github.com/servexyz/alpha-genesis)             | Shim for LGEN, FGEN and CGEN                                            |
+| :boom::boom:             | `FGEN`    | [file-genesis](https://github.com/servexyz/file-genesis)               | File generator                                                          |
+| :boom::boom::boom:       | `CGEN`    | [content-genesis](https://github.com/servexyz/content-genesis)         | Content generator                                                       |
+| :boom::boom::boom:       | `LGEN`    | [library-genesis](https://github.com/servexyz/library-genesis)         | Library generator                                                       |
+| :boom::boom:             | `LGENC`   | [library-genesis-cli](https://github.com/servexyz/library-genesis-cli) | Library generator  CLI                                                  |
+| :boom::boom::boom::boom: | `RGEN`    | [repo-genesis](https://github.com/servexyz/repo-geneis)                | Clone symlinked repos to make flexible monoliths without git submodules |
+| :boom::boom::boom:       | `RGENC`   | [repo-genesis-cli](https://github.com/servexyz/repo-genesis-cli)       | Monolith maker CLI                                                      |
 
 ### Active - `Helpers`
 | Effort Level | Name                                                                           | Description        |
