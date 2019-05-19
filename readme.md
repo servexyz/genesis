@@ -1,4 +1,4 @@
-![logo](docs/images/logo/Genesis.png)
+![logo](docs/images/logo/Genesis.jpg)
 
 > What: Monolith of related generator building blocks
 > 
