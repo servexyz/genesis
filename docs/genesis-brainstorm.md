@@ -34,6 +34,19 @@ The purpose of the genesis packages are to provide easy-access to related sets o
 
 ```mermaid
 graph LR
+repospace --> beta-genesis
+
+subgraph Beta Genesis
+  beta-genesis --> repo-genesis
+  beta-genesis --> package-genesis
+  beta-genesis -->  component-genesis
+  component-genesis --> sg[style-genesis]
+
+end
+```
+
+```mermaid
+graph LR
 repospace --> alpha-genesis
 
 subgraph Alpha Genesis
