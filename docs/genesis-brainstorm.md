@@ -34,7 +34,7 @@ The purpose of the genesis packages are to provide easy-access to related sets o
 
 ```mermaid
 graph LR
-  repospace --> alpha-genesis
+repospace --> alpha-genesis
 
 subgraph Alpha Genesis
   alpha-genesis --> library-genesis
