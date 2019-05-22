@@ -32,7 +32,7 @@ The purpose of the genesis packages are to provide easy-access to related sets o
 
 > In studies of social animals, the highest ranking individual is sometimes designated as the alpha. Males, females, or both, can be alphas, depending on the species. Where one male and one female fulfill this role together, they are sometimes referred to as the alpha pair. Other animals in the same social group may exhibit deference or other species-specific subordinate behaviours towards the alpha or alphas.
 
-```
+```mermaid
 ```
 
 ```mermaid
