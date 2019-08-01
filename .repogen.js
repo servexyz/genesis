@@ -1,32 +1,29 @@
 const config = {
-  provider: "alechp",
+  provider: 'alechp',
   repospacePath: __dirname,
   repositories: [
     {
-      servexyz: "repo-genesis"
+      servexyz: 'repo-genesis',
     },
     {
-      servexyz: "repo-genesis-cli"
+      servexyz: 'file-genesis',
     },
     {
-      servexyz: "file-genesis"
+      servexyz: 'library-genesis',
     },
     {
-      servexyz: "library-genesis"
+      servexyz: 'content-genesis',
     },
     {
-      servexyz: "content-genesis"
+      servexyz: 'alpha-genesis',
     },
     {
-      servexyz: "alpha-genesis"
+      servexyz: 'library-genesis-cli',
     },
     {
-      servexyz: "library-genesis-cli"
+      servexyz: 'library-genesis-example',
     },
-    {
-      servexyz: "library-genesis-example"
-    }
-  ]
+  ],
 };
 
-module.exports = { config };
+module.exports = {config};
